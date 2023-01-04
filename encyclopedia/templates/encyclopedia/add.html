@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    ADD
+{% endblock %}
+
+{% block body %}
+
+    <form action="{%  url 'create' %}" method="post">
+        {% csrf_token %}
+        <input class="title" type="text" title="title" name="title" />
+        <input class="text_content" type="text" title="text_content" name="text_content" style="width: 200px;height: 300px"/>
+        <input class="input_button" type="submit" value="create" style="background-color: aliceblue" >
+    </form>
+
+{% endblock %}

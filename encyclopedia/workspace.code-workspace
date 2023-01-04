@@ -1,0 +1,17 @@
+{
+    "folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\VSCode\\test"
+		},
+		{
+			"path": "c:\\Users\\16383\\lecture0"
+		},
+		{
+			"path": "c:\\Users\\16383\\Documents\\GitHub\\project-0-Dahuia"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "project-0-Dahuia",
+        "liveServer.settings.port": 5502
+    }
+}
